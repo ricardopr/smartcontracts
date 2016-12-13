@@ -150,12 +150,13 @@ public class SimpleSample extends ChaincodeBase {
 
 	@Override
 	public String getChaincodeID() {
-		return "SimpleSample";
+		return "ricardoPR-blc";
 	}
 
 	public static void main(String[] args) throws Exception {
 		new SimpleSample().start(args);
 	}
-
+	
+ 	
 
 }
